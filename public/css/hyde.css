@@ -248,3 +248,16 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/*Share Buttons*/
+ul.share-buttons{
+	list-style: none;
+	margin-bottom: -1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+ul.share-buttons li{
+	display: inline;
+	margin-right: 5px;
+}

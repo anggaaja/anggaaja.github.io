@@ -3,9 +3,17 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+        {{ content }}
+        <ul class="share-buttons">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ page.url }}&t={{ page.title }}" target="_blank" title="Bagikan ke Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{site.url}}{{ page.url }}" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="https://plus.google.com/share?url={{site.url}}{{ page.url }}" target="_blank" title="Bagikan ke Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+            <li><a href="http://www.tumblr.com/share?v=3&u={{site.url}}{{ page.url }}&t={{ page.title }}&s=" target="_blank" title="Post ke Tumblr"><i class="fa fa-tumblr-square fa-2x"></i></a></li>
+            <li><a href="http://pinterest.com/pin/create/button/?url={{site.url}}{{ page.url }}&description={{ page.title }}" target="_blank" title="Pin-kan"><i class="fa fa-pinterest-square fa-2x"></i></a></li>
+            <li><a href="https://getpocket.com/save?url={{site.url}}{{ page.url }}&title={{ page.title }}" target="_blank" title="Tambahkan ke Pocket"><i class="fa fa-get-pocket fa-2x"></i></a></li>
+        </ul>
 </div>
 
 <div class="related">

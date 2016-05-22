@@ -11,7 +11,7 @@ permalink: /:title
 description: > # this means to ignore newlines until "baseurl:"
   Si gagap teknologi
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://angga.win" # the base hostname & protocol for your site
+url: "https://angga.win" # the base hostname & protocol for your site
 paginate: 5
 
 # Build settings
