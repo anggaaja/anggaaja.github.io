@@ -7,12 +7,14 @@
 
 # Site settings
 title: Angga!
-permalink: /:title
+permalink: :title/
+relative_permalink: true
 description: > # this means to ignore newlines until "baseurl:"
   Si gagap teknologi
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://angga.win" # the base hostname & protocol for your site
 paginate: 5
+tagline: Si gagap teknologi
 
 # Build settings
 markdown: kramdown
